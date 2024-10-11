@@ -16,7 +16,7 @@ class Q0(Q):
 
 class Q1(Q):
     def process(self, inpt: bool) -> State:
-        if not (inpt):
+        if not inpt:
             print(1)
             return State.Q2
         print(0)
